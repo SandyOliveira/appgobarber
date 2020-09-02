@@ -1,5 +1,7 @@
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 
+import {store} from '~/store';
+
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
