@@ -27,7 +27,7 @@ export default function Dashboard() {
         appointment.id === id
           ? {
               ...appointment,
-              canceled_at: response.date.canceled_at,
+              canceled_at: response.data.canceled_at,
             }
           : appointment,
       ),
